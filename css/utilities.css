@@ -1,4 +1,24 @@
 /* text utilities */
 .text-primary {
-  color: lightskyblue;
+  color:  #3a59bd;
+}
+
+/* backgrounds */
+.bg-light {
+  background: #F0F0F0;
+  color: #333;
+}
+/* btn */
+.btn {
+  background: #3a59bd;
+  color: #fff;
+  padding: 13px 30px;
+  border-radius: 10px;
+  display: inline-block;
+  border: none;
+}
+
+.btn:hover {
+  color: #fff;
+  background: #183696;
 }
