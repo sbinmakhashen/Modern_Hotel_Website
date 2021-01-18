@@ -12,6 +12,10 @@
   background: #F0F0F0;
   color: #333;
 }
+.bg-blog {
+  background:#594582;
+  color: #fff;
+}
 /* btn */
 .btn {
   background: #3a59bd;
@@ -26,24 +30,55 @@
   color: #fff;
   background: #183696;
 }
-
+/* btn style */
+.transp-btn {
+  background: transparent;
+  color: #fff;
+  border: #F0F0F0 1px solid;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
 /* Services */
 .service .row {
-  background: #3a59bd;
-  color:#fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.service .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.service .column .column-1,
+.service .column .column-2 {
+  height: 100%;
+}
+
+.service img {
+  object-fit:cover;
   width: 100%;
   height: 100%;
 }
 
-.service .column-1 img {
+.service .column .column-2 {
   display: flex;
   flex-direction: column;
-  
+  justify-content: center;
+  align-items:flex-start;
+  padding: 30px;
 }
 
-.service .column-2 {
-  display: flex;
-  flex-direction: column;
-
+.service h1 {
+  font-size: 40px;
+  font-weight: 400;
 }
 
+.service p {
+  line-height: 1.9;
+}
+
+/*  */
