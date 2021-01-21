@@ -8,16 +8,23 @@
   background: #3a59bd;
   color: #fff;
 }
+
 .bg-light {
   background: #F0F0F0;
   color: #333;
 }
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
 .bg-blog {
   background:#594582;
   color: #fff;
 }
 .bg-secondary {
-  background:#d1d8e3;
+  background:#e8e6e1;
   color: #333;
 }
 /* btn */
@@ -85,4 +92,3 @@
   line-height: 1.9;
 }
 
-/*  */
