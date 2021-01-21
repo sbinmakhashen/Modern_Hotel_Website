@@ -16,6 +16,10 @@
   background:#594582;
   color: #fff;
 }
+.bg-secondary {
+  background:#d1d8e3;
+  color: #333;
+}
 /* btn */
 .btn {
   background: #3a59bd;
