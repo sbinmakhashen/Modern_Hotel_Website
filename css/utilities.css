@@ -49,6 +49,16 @@
   border-radius: 10px;
   padding: 10px 30px;
 }
+
+.black-btn {
+  background: #333;
+  color: #fff;
+}
+
+.light-btn {
+  background:#333;
+  color: #fff;
+}
 /* Services */
 .service .row {
   display: flex;
@@ -92,3 +102,39 @@
   line-height: 1.9;
 }
 
+
+
+/* Blog page */
+.hero.blog::before {
+  background: url('../img/blog/blog-header.jpg') no-repeat center center/cover;
+  height: 100vh;
+  /* width: 100%; */
+}
+
+.post-one.reverse .row{
+  flex-direction:row-reverse;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 30px 0;
+}
+
+.footer-icons {
+  margin: 30px;
+}
+
+.footer a {
+  padding: 0 10px;
+  color: #fff;
+}
+
+.footer a:hover {
+  color: #3a59bd;
+}

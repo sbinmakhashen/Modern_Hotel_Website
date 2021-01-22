@@ -12,6 +12,11 @@ body {
   line-height: 1.3;
 }
 
+/* #blog {
+  background: #e8e6e1;
+  color: #333;
+} */
+
 ul {
   list-style: none;
 }
@@ -283,26 +288,3 @@ img {
   margin-top: 20px;
 }
 
-/* Footer */
-.footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  padding: 30px 0;
-}
-
-.footer-icons {
-  margin: 30px;
-}
-
-.footer a {
-  padding: 0 10px;
-  color: #fff;
-}
-
-.footer a:hover {
-  color: #3a59bd;
-}
