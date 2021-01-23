@@ -56,8 +56,8 @@
 }
 
 .light-btn {
-  background:#333;
-  color: #fff;
+  background:#fff;
+  color: #333;
 }
 /* Services */
 .service .row {
@@ -111,7 +111,7 @@
   /* width: 100%; */
 }
 
-.post-one.reverse .row{
+.reverse .row{
   flex-direction:row-reverse;
 }
 
